@@ -1,0 +1,493 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.frappe.frappe_mobile"
+4    android:versionCode="8"
+5    android:versionName="1.4.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:3:5-80
+11-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:3:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:4:5-80
+12-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:4:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:5:5-66
+13-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:5:22-64
+14
+15    <queries>
+15-->[:file_picker] /home/joseph-tembu/Desktop/Frappe-Mobile/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:15
+16        <intent>
+16-->[:file_picker] /home/joseph-tembu/Desktop/Frappe-Mobile/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
+17            <action android:name="android.intent.action.GET_CONTENT" />
+17-->[:file_picker] /home/joseph-tembu/Desktop/Frappe-Mobile/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
+17-->[:file_picker] /home/joseph-tembu/Desktop/Frappe-Mobile/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
+18
+19            <data android:mimeType="*/*" />
+19-->[:file_picker] /home/joseph-tembu/Desktop/Frappe-Mobile/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+19-->[:file_picker] /home/joseph-tembu/Desktop/Frappe-Mobile/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-41
+20        </intent>
+21        <intent>
+21-->[:flutter_downloader] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_downloader/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-13:18
+22            <action android:name="android.intent.action.VIEW" />
+22-->[:flutter_downloader] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_downloader/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-65
+22-->[:flutter_downloader] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_downloader/intermediates/merged_manifest/release/AndroidManifest.xml:12:21-62
+23        </intent>
+24        <intent>
+24-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+25            <action android:name="android.support.customtabs.action.CustomTabsService" />
+25-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-90
+25-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-87
+26        </intent>
+27    </queries>
+28
+29    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+29-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+29-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+30    <uses-permission android:name="android.permission.VIBRATE" />
+30-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+30-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+31    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+31-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+31-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+32    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+32-->[:flutter_downloader] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_downloader/intermediates/merged_manifest/release/AndroidManifest.xml:16:5-77
+32-->[:flutter_downloader] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_downloader/intermediates/merged_manifest/release/AndroidManifest.xml:16:22-74
+33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+33-->[:connectivity] /home/joseph-tembu/Desktop/Frappe-Mobile/build/connectivity/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+33-->[:connectivity] /home/joseph-tembu/Desktop/Frappe-Mobile/build/connectivity/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+34    <uses-permission android:name="android.permission.WAKE_LOCK" />
+34-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+34-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:22-65
+35    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+35-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+35-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+36
+37    <permission
+37-->[androidx.core:core:1.10.1] /home/joseph-tembu/.gradle/caches/transforms-3/c66a84034fdee472d77a2fc15f5cce5d/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+38        android:name="io.frappe.frappe_mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.10.1] /home/joseph-tembu/.gradle/caches/transforms-3/c66a84034fdee472d77a2fc15f5cce5d/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.10.1] /home/joseph-tembu/.gradle/caches/transforms-3/c66a84034fdee472d77a2fc15f5cce5d/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="io.frappe.frappe_mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+41-->[androidx.core:core:1.10.1] /home/joseph-tembu/.gradle/caches/transforms-3/c66a84034fdee472d77a2fc15f5cce5d/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.10.1] /home/joseph-tembu/.gradle/caches/transforms-3/c66a84034fdee472d77a2fc15f5cce5d/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+42    <!--
+43 io.flutter.app.FlutterApplication is an android.app.Application that
+44         calls FlutterMain.startInitialization(this); in its onCreate method.
+45         In most cases you can leave this as-is, but you if you want to provide
+46         additional functionality it is fine to subclass or reimplement
+47         FlutterApplication and put your custom class here.
+48    -->
+49    <application
+50        android:name="android.app.Application"
+50-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:12:9-42
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.10.1] /home/joseph-tembu/.gradle/caches/transforms-3/c66a84034fdee472d77a2fc15f5cce5d/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+52        android:icon="@mipmap/launcher_icon"
+52-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:14:9-45
+53        android:label="UpandeERP" >
+53-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:13:9-34
+54        <activity
+54-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:15:9-26:20
+55            android:name="io.frappe.frappe_mobile.MainActivity"
+55-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:16:13-41
+56            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+56-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:19:13-163
+57            android:hardwareAccelerated="true"
+57-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:20:13-47
+58            android:launchMode="singleTop"
+58-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:17:13-43
+59            android:theme="@style/LaunchTheme"
+59-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:18:13-47
+60            android:windowSoftInputMode="adjustResize" >
+60-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:21:13-55
+61            <intent-filter>
+61-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:22:13-25:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:23:17-68
+62-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:23:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:24:17-76
+64-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:24:27-74
+65            </intent-filter>
+66        </activity>
+67        <!--
+68             Don't delete the meta-data below.
+69             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+70        -->
+71        <meta-data
+71-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:29:9-31:33
+72            android:name="flutterEmbedding"
+72-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:30:13-44
+73            android:value="2" />
+73-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:31:13-30
+74
+75        <provider
+76            android:name="vn.hunghd.flutterdownloader.DownloadedFileProvider"
+76-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:33:13-78
+77            android:authorities="io.frappe.frappe_mobile.flutter_downloader.provider"
+77-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:34:13-79
+78            android:exported="false"
+78-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:35:13-37
+79            android:grantUriPermissions="true" >
+79-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:36:13-47
+80            <meta-data
+80-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:37:13-39:57
+81                android:name="android.support.FILE_PROVIDER_PATHS"
+81-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:38:17-67
+82                android:resource="@xml/provider_paths" />
+82-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:39:17-55
+83        </provider>
+84
+85        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+85-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-106
+85-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:19-103
+86        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+86-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-22:20
+86-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-107
+87            <intent-filter>
+87-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-21:29
+88                <action android:name="android.intent.action.BOOT_COMPLETED" />
+88-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-79
+88-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:25-76
+89                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+89-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-84
+89-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:25-81
+90                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+90-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-82
+90-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:25-79
+91                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+91-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-82
+91-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:25-79
+92            </intent-filter>
+93        </receiver>
+94
+95        <activity
+95-->[:url_launcher_android] /home/joseph-tembu/Desktop/Frappe-Mobile/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+96            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+96-->[:url_launcher_android] /home/joseph-tembu/Desktop/Frappe-Mobile/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+97            android:exported="false"
+97-->[:url_launcher_android] /home/joseph-tembu/Desktop/Frappe-Mobile/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+98            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+98-->[:url_launcher_android] /home/joseph-tembu/Desktop/Frappe-Mobile/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+99        <activity
+99-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:47
+100            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+100-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-104
+101            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+101-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-137
+102            android:exported="false"
+102-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+103            android:theme="@style/AppTheme" />
+103-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-44
+104        <activity
+104-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-24:55
+105            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+105-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-112
+106            android:exported="false"
+106-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
+107            android:theme="@style/ThemeTransparent" />
+107-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-52
+108        <activity
+108-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-28:55
+109            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+109-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-106
+110            android:exported="false"
+110-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-37
+111            android:theme="@style/ThemeTransparent" />
+111-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-52
+112        <activity
+112-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-33:55
+113            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+113-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-126
+114            android:exported="false"
+114-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-37
+115            android:launchMode="singleInstance"
+115-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-48
+116            android:theme="@style/ThemeTransparent" />
+116-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-52
+117        <activity
+117-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-38:55
+118            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+118-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-120
+119            android:exported="false"
+119-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-37
+120            android:launchMode="singleInstance"
+120-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-48
+121            android:theme="@style/ThemeTransparent" />
+121-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-52
+122
+123        <receiver
+123-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:40
+124            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+124-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-111
+125            android:enabled="true"
+125-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-35
+126            android:exported="false" />
+126-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-37
+127
+128        <meta-data
+128-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-47:36
+129            android:name="io.flutter.embedded_views_preview"
+129-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-61
+130            android:value="true" />
+130-->[:flutter_inappwebview] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-33
+131
+132        <provider
+132-->[:open_file] /home/joseph-tembu/Desktop/Frappe-Mobile/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-20:20
+133            android:name="com.crazecoder.openfile.FileProvider"
+133-->[:open_file] /home/joseph-tembu/Desktop/Frappe-Mobile/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
+134            android:authorities="io.frappe.frappe_mobile.fileProvider.com.crazecoder.openfile"
+134-->[:open_file] /home/joseph-tembu/Desktop/Frappe-Mobile/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-88
+135            android:exported="false"
+135-->[:open_file] /home/joseph-tembu/Desktop/Frappe-Mobile/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+136            android:grantUriPermissions="true" >
+136-->[:open_file] /home/joseph-tembu/Desktop/Frappe-Mobile/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-47
+137            <meta-data
+137-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:37:13-39:57
+138                android:name="android.support.FILE_PROVIDER_PATHS"
+138-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:38:17-67
+139                android:resource="@xml/filepaths" />
+139-->/home/joseph-tembu/Desktop/Frappe-Mobile/android/app/src/main/AndroidManifest.xml:39:17-55
+140        </provider>
+141
+142        <uses-library
+142-->[androidx.window:window:1.0.0-beta04] /home/joseph-tembu/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+143            android:name="androidx.window.extensions"
+143-->[androidx.window:window:1.0.0-beta04] /home/joseph-tembu/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+144            android:required="false" />
+144-->[androidx.window:window:1.0.0-beta04] /home/joseph-tembu/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+145        <uses-library
+145-->[androidx.window:window:1.0.0-beta04] /home/joseph-tembu/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+146            android:name="androidx.window.sidecar"
+146-->[androidx.window:window:1.0.0-beta04] /home/joseph-tembu/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+147            android:required="false" />
+147-->[androidx.window:window:1.0.0-beta04] /home/joseph-tembu/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+148
+149        <provider
+149-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+150            android:name="androidx.startup.InitializationProvider"
+150-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+151            android:authorities="io.frappe.frappe_mobile.androidx-startup"
+151-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+152            android:exported="false" >
+152-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+153            <meta-data
+153-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+154                android:name="androidx.work.WorkManagerInitializer"
+154-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+155                android:value="androidx.startup" />
+155-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+156            <meta-data
+156-->[androidx.emoji2:emoji2:1.2.0] /home/joseph-tembu/.gradle/caches/transforms-3/79706406a972141c80782381f7bd6489/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+157                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+157-->[androidx.emoji2:emoji2:1.2.0] /home/joseph-tembu/.gradle/caches/transforms-3/79706406a972141c80782381f7bd6489/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+158                android:value="androidx.startup" />
+158-->[androidx.emoji2:emoji2:1.2.0] /home/joseph-tembu/.gradle/caches/transforms-3/79706406a972141c80782381f7bd6489/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+159            <meta-data
+159-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/joseph-tembu/.gradle/caches/transforms-3/33affb74a867793ff83da66f40a914b6/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+160                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+160-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/joseph-tembu/.gradle/caches/transforms-3/33affb74a867793ff83da66f40a914b6/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+161                android:value="androidx.startup" />
+161-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/joseph-tembu/.gradle/caches/transforms-3/33affb74a867793ff83da66f40a914b6/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+162        </provider>
+163
+164        <service
+164-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+165            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+165-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+166            android:directBootAware="false"
+166-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+167            android:enabled="@bool/enable_system_alarm_service_default"
+167-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+168            android:exported="false" />
+168-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+169        <service
+169-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+170            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+170-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+171            android:directBootAware="false"
+171-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+172            android:enabled="@bool/enable_system_job_service_default"
+172-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+173            android:exported="true"
+173-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+174            android:permission="android.permission.BIND_JOB_SERVICE" />
+174-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+175        <service
+175-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+176            android:name="androidx.work.impl.foreground.SystemForegroundService"
+176-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+177            android:directBootAware="false"
+177-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+178            android:enabled="@bool/enable_system_foreground_service_default"
+178-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+179            android:exported="false" />
+179-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+180
+181        <receiver
+181-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+182            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+182-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+183            android:directBootAware="false"
+183-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+184            android:enabled="true"
+184-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+185            android:exported="false" />
+185-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+186        <receiver
+186-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+187            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+187-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+188            android:directBootAware="false"
+188-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+189            android:enabled="false"
+189-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+190            android:exported="false" >
+190-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+191            <intent-filter>
+191-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+192                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+192-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+192-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+193                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+193-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+193-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+194            </intent-filter>
+195        </receiver>
+196        <receiver
+196-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+197            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+197-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+198            android:directBootAware="false"
+198-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+199            android:enabled="false"
+199-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+200            android:exported="false" >
+200-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+201            <intent-filter>
+201-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+202                <action android:name="android.intent.action.BATTERY_OKAY" />
+202-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+202-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+203                <action android:name="android.intent.action.BATTERY_LOW" />
+203-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+203-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+204            </intent-filter>
+205        </receiver>
+206        <receiver
+206-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+207            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+207-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+208            android:directBootAware="false"
+208-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+209            android:enabled="false"
+209-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+210            android:exported="false" >
+210-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+211            <intent-filter>
+211-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+212                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+212-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+212-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+213                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+213-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+213-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+214            </intent-filter>
+215        </receiver>
+216        <receiver
+216-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+217            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+217-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+218            android:directBootAware="false"
+218-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+219            android:enabled="false"
+219-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+220            android:exported="false" >
+220-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+221            <intent-filter>
+221-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+222                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+222-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+222-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+223            </intent-filter>
+224        </receiver>
+225        <receiver
+225-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+226            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+226-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+227            android:directBootAware="false"
+227-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+228            android:enabled="false"
+228-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+229            android:exported="false" >
+229-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+230            <intent-filter>
+230-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+231                <action android:name="android.intent.action.BOOT_COMPLETED" />
+231-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-79
+231-->[:flutter_local_notifications] /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:25-76
+232                <action android:name="android.intent.action.TIME_SET" />
+232-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+232-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+233                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+233-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+233-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+234            </intent-filter>
+235        </receiver>
+236        <receiver
+236-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+237            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+237-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+238            android:directBootAware="false"
+238-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+239            android:enabled="@bool/enable_system_alarm_service_default"
+239-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+240            android:exported="false" >
+240-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+241            <intent-filter>
+241-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+242                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+242-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+242-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+243            </intent-filter>
+244        </receiver>
+245        <receiver
+245-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+246            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+246-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+247            android:directBootAware="false"
+247-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+248            android:enabled="true"
+248-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+249            android:exported="true"
+249-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+250            android:permission="android.permission.DUMP" >
+250-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+251            <intent-filter>
+251-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+252                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+252-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+252-->[androidx.work:work-runtime:2.7.1] /home/joseph-tembu/.gradle/caches/transforms-3/630aff8bbe3eb852c2a53dc872b10fb8/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+253            </intent-filter>
+254        </receiver>
+255
+256        <service
+256-->[androidx.room:room-runtime:2.2.5] /home/joseph-tembu/.gradle/caches/transforms-3/7eccf00b0b3c3e7939afa76a13201833/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+257            android:name="androidx.room.MultiInstanceInvalidationService"
+257-->[androidx.room:room-runtime:2.2.5] /home/joseph-tembu/.gradle/caches/transforms-3/7eccf00b0b3c3e7939afa76a13201833/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+258            android:directBootAware="true"
+258-->[androidx.room:room-runtime:2.2.5] /home/joseph-tembu/.gradle/caches/transforms-3/7eccf00b0b3c3e7939afa76a13201833/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+259            android:exported="false" />
+259-->[androidx.room:room-runtime:2.2.5] /home/joseph-tembu/.gradle/caches/transforms-3/7eccf00b0b3c3e7939afa76a13201833/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+260    </application>
+261
+262</manifest>

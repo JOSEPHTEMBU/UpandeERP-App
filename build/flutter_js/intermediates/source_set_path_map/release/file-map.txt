@@ -1,0 +1,12 @@
+io.abner.flutter_js-jetified-annotation-experimental-1.1.0-0 /home/joseph-tembu/.gradle/caches/transforms-3/3795200b4ef80330da39fee63b1e3f99/transformed/jetified-annotation-experimental-1.1.0/res
+io.abner.flutter_js-jetified-window-java-1.0.0-beta04-1 /home/joseph-tembu/.gradle/caches/transforms-3/4f8a10da11d41b9ccabff01515190014/transformed/jetified-window-java-1.0.0-beta04/res
+io.abner.flutter_js-core-1.6.0-2 /home/joseph-tembu/.gradle/caches/transforms-3/ae42e6c01585f28a5adeac7499fca147/transformed/core-1.6.0/res
+io.abner.flutter_js-jetified-window-1.0.0-beta04-3 /home/joseph-tembu/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/res
+io.abner.flutter_js-main-4 /home/joseph-tembu/.pub-cache/hosted/pub.dev/flutter_js-0.8.0/android/src/main/res
+io.abner.flutter_js-release-5 /home/joseph-tembu/.pub-cache/hosted/pub.dev/flutter_js-0.8.0/android/src/release/res
+io.abner.flutter_js-pngs-6 /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_js/generated/res/pngs/release
+io.abner.flutter_js-resValues-7 /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_js/generated/res/resValues/release
+io.abner.flutter_js-rs-8 /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_js/generated/res/rs/release
+io.abner.flutter_js-mergeReleaseResources-9 /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_js/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.abner.flutter_js-mergeReleaseResources-10 /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_js/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.abner.flutter_js-merged_res-11 /home/joseph-tembu/Desktop/Frappe-Mobile/build/flutter_js/intermediates/merged_res/release

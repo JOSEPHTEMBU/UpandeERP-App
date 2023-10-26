@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "io.abner.flutter_js-merged_res-10:/layout/notification_template_part_chronometer.xml",
+        "source": "io.abner.flutter_js-core-1.6.0-2:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "io.abner.flutter_js-merged_res-10:/layout/notification_template_part_time.xml",
+        "source": "io.abner.flutter_js-core-1.6.0-2:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "io.abner.flutter_js-merged_res-10:/layout/custom_dialog.xml",
+        "source": "io.abner.flutter_js-core-1.6.0-2:/layout/custom_dialog.xml"
+    }
+]
